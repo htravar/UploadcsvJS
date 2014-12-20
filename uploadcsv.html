@@ -1,0 +1,19 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Upload csv</title>
+    <link rel="stylesheet" type="text/css" href="uploadcsv.css" />
+    <script type="text/javascript" src="uploadcsv.js"></script>
+</head>
+<body>
+	<p>This will upload a csv file and search for 2 patterns - first name-last name and age. The Javascript code will then use chaining to replace both patterns.
+	   An alert box will display the original content. The new content will then be displayed in a textarea. The code used to initially upload the csv file comes from Mounir Messelmeni - see comments in Javascript.</p>
+    <input type="file" id="csvfile" onchange="handleFiles(this.files)" accept=".csv" />
+    <textarea id="list" cols="32" rows="14"></textarea>
+    <output id="list2"></output>
+    <output id="list3"></output>
+
+
+</body>
+</html>
